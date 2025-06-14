@@ -7,8 +7,7 @@
       "config": {
         "maxLambdaSize": "50mb",
         "includeFiles": [
-          "knowledge_base.db",
-          ".env"
+          "knowledge_base.db"
         ]
       }
     }
