@@ -752,5 +752,6 @@ def read_root():
     return {"message": "Welcome to the RAG API. Use /query to post your question."}
 
 
-
+if __name__ == "__main__":
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
 
